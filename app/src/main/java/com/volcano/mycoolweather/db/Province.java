@@ -19,10 +19,7 @@ import org.litepal.crud.DataSupport;
 public class Province extends DataSupport {
 
     private int id;
-
-    @SerializedName("name")
     private String provinceName;
-
     private int provinceCode;
 
     public int getId() {
